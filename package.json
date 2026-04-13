@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/server.js"
+    "test:coverage": "jest --coverage",
+    "test:js": "jest --json --outputFile=jest-results.json",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit --c",
+    "start": "node src/server.js",
+    "dev": "node src/server.js --watch"
   },
   "repository": {
     "type": "git",
