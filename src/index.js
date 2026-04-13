@@ -1,5 +1,4 @@
 const express = require("express");
-const log = require("smallog");
 
 const app = express();
 
