@@ -1,0 +1,29 @@
+{
+  "name": "tdd-april-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-maastricht/tdd-april-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tim-maastricht/tdd-april-13/issues"
+  },
+  "homepage": "https://github.com/tim-maastricht/tdd-april-13#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "smallog": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
