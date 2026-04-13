@@ -8,6 +8,9 @@
 //   expect(sum(2, 3)).not.toBe(0);
 // })
 
+// it must expect
+// if no expect, it fails
+
 const { getTasks, addTask } = require("../src/utils");
 
 it('should return empty array initially', () => {
