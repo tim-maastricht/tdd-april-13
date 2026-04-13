@@ -10,9 +10,13 @@ function getTasks() {
 }
 
 function addTask(taskData) {
-    const task = { id: tasks.length + 1, ...taskData };
-    tasks.push(task);
-    return task;
+  const task = { id: tasks.length + 1, ...taskData };
+  tasks.push(task);
+  return task;
 }
 
-module.exports = { getTasks, addTask };
+function clearTasks() {
+  tasks.length = 0;
+}
+
+module.exports = { getTasks, addTask, clearTasks };
